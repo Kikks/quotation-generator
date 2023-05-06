@@ -1,0 +1,189 @@
+.container {
+  padding: 3rem;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.logo {
+  width: 200px;
+  height: 50px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contact-details__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.contact-details__icon {
+  background-color: red;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+  color: white;
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.contact-details__icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.title {
+  color: red;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.title__cell-container {
+  width: 40%;
+  display: flex;
+  border: 1px solid #000;
+}
+
+.title__cell {
+  align-self: stretch;
+  padding: 0.5rem;
+}
+
+.border-right {
+  border-right: 1px solid #000;
+}
+
+.cell-container {
+  width: 100%;
+  display: flex;
+  border: 1px solid #000;
+}
+
+.cell {
+  align-self: stretch;
+  padding: 0.5rem 1rem;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.border-b-0 {
+  border-bottom: 0;
+}
+
+.mb-3 {
+  margin-bottom: 2rem;
+}
+
+.italic-detail {
+  font-style: italic;
+  color: #aaa;
+}
+
+.asteriks {
+  color: red;
+}
+
+.gray-header {
+  width: 100%;
+  padding: 1rem;
+  font-weight: bold;
+  color: black;
+  background-color: #ddd;
+  margin-bottom: 1rem;
+}
+
+.note {
+  font-style: italic;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.disclaimer {
+  font-style: italic;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: red;
+  margin-bottom: 3rem;
+}
+
+.social {
+  background-color: red;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35rem;
+}
+
+.social__icons {
+  display: flex;
+  align-items: center;
+}
+
+.social__icon {
+  margin-right: 1.5rem;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.website {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  line-height: 2;
+}
+
+.footer__company {
+  font-weight: bold;
+}
